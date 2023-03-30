@@ -1,0 +1,41 @@
+<?xml version="1.0" kodlama="UTF-8"?>
+
+<belirtmek>
+
+<uzak ad="hub" fetch="https://github.com/" />
+
+<remote name="lab" fetch="https://gitlab.com/" />
+
+<!-- Ağaçlar -->
+
+<project path="device/xiaomi/raphael" name="OmegaBeam69/WF_device_xiaomi_raphael.git" remote="hub" revizyon="spark-13" />
+
+<project path="vendor/xiaomi/raphael" name="OmegaBeam69/vendor_xiaomi_raphael.git" remote="hub" revizyon="13" />
+
+<project path="kernel/xiaomi/raphael" name="OmegaBeam69/bool-x_xiaomi_raphael.git" remote="hub" revizyon="walt+kp" />
+
+<!--KProfil-->
+
+<proje yolu="paketler/uygulamalar/KProfiles" name="OmegaBeam69/Boolx_apps_KProfiles.git" uzak="hub" revizyon="ana" />
+
+<!--Hals-->
+
+<remove-project name="android_hardware_qcom_display" />
+
+<project path="hardware/qcom-caf/sm8150/display" name="OmegaBeam69/hardware_qcom_display.git" remote="hub" revizyon="13-sm8150" />
+
+<!--V4A-->
+
+<!--project path="vendor/v4afx" name="DanipunK1/vendor_v4afx.git" remote="hub" revizyon="on iki" -->
+
+<!--Boolx Clang-->
+
+<project path="prebuilds/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revizyon="Clang-16.0_x86" />
+
+<!-- clang-r450784d-->
+
+<project path="prebuilds/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d.git" remote="lab" revizyon="master" />
+
+ 
+
+</manifest>
