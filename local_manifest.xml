@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+ <!-- Device Trees -->
+
+ <project path="device/xiaomi/raphael" name="SOVIET-ANDROID/device_xiaomi_raphael" remote="github" revision="13.0" />
+
+ <project path="vendor/xiaomi/raphael" name="SOVIET-ANDROID/vendor_xiaomi_raphael" remote="github" revision="13.0" />
+
+ <project path="kernel/xiaomi/raphael" name="SOVIET-ANDROID/kernel_xiaomi_raphael" remote="github" revision="13.0" />
+
+ 
+
+ <!-- HALS -->
+
+ <project path="hardware/qcom/display" name="SOVIET-ANDROID/platform_hardware_qcom_display" remote="github" revision="13.0-8150" />
+
+ 
+
+ <project path="hardware/xiaomi" name="SOVIET-ANDROID/android_hardware_xiaomi" remote="github" revision="13.0" />
+
+ 
+
+ <remove-project name="device/qcom/sepolicy_vndr-legacy-um" />
+
+ <project path="device/qcom/sepolicy_vndr" name="SOVIET-ANDROID/device-qcom-sepolicy_vndr" remote="github" revision="13.0-legacy-um" />
+
+ 
+
+ <project path="vendor/xiaomi/miuicamera" name="SOVIET-ANDROID/vendor_miuicamera" remote="github" revision="10.0" />
+
+ 
+
+ <!-- (Clang)
+
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="github" revision="arrow-11.0" />
+
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" />
+
+ -->
+
+</manifest>
