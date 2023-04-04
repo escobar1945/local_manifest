@@ -12,7 +12,7 @@
 		  
  <!-- Device Trees -->
  <project path="device/xiaomi/raphael" name="device_xiaomi_raphael" remote="esco" revision="banana" />
- <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="esco" revision="13" />
+ <project path="vendor/xiaomi/raphael" name="android_vendor_xiaomi_raphael" remote="esco" revision="13" />
  <project path="kernel/xiaomi/raphael" name="bool-x_xiaomi_raphael" remote="bool-x" revision="saaya1" />
 
  <!-- HALS -->
@@ -22,6 +22,6 @@
  <!--Boolx Clang-->
  <project path="prebuilts/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revision="Clang-16.0_x86" /> 
  
- <remove-project name="android_hardware_xiaomi"/>
+ <remove-project name="hardware_xiaomi"/>
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="esco" revision="13"/>
 </manifest>
