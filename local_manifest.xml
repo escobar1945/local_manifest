@@ -16,12 +16,12 @@
  <project path="kernel/xiaomi/raphael" name="bool-x_xiaomi_raphael" remote="bool-x" revision="saaya1" />
 
  <!-- HALS -->
- <remove-project name="crdroidandroid/android_hardware_qcom_display"/>
+ <remove-project name="crdroidandroid/android_hardware_qcom_display" />
  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" remote="esco" revision="13-sm8150" />
  
  <!--Boolx Clang-->
  <project path="prebuilts/clang/host/linux-x86/boolx-clang" name="onettboots/boolx-clang.git" remote="lab" revision="Clang-16.0_x86" /> 
  
- <remove-project name="hardware_xiaomi"/>
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="esco" revision="13"/>
+ <remove-project name="hardware_xiaomi" />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="esco" revision="13" />
 </manifest>
